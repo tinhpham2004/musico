@@ -35,5 +35,6 @@ object Dimens {
 
     val boderWidth_1 = 1.dp
     val borderRadius_25 = 25.dp
+    val borderRadius_30 = 30.dp
 
 }

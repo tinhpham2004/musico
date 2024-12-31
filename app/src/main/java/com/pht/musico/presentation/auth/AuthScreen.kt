@@ -1,8 +1,6 @@
 package com.pht.musico.presentation.auth
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -10,7 +8,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -18,13 +15,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import com.pht.musico.R
 import com.pht.musico.presentation.common.AppButton
+import com.pht.musico.ui.theme.c_0D0D0D
 import com.pht.musico.ui.theme.c_FFFFFF
-import com.pht.musico.ui.theme.c_transparent
 import com.pht.musico.ui.theme.typography
-import com.pht.musico.util.Dimens.boderWidth_1
-import com.pht.musico.util.Dimens.borderRadius_25
 import com.pht.musico.util.Dimens.space_16
 import com.pht.musico.util.Dimens.space_24
+import com.pht.musico.util.Dimens.space_32
 import com.pht.musico.util.Dimens.space_64
 
 @Composable
@@ -58,16 +54,58 @@ fun AuthScreen() {
             color = c_FFFFFF.copy(alpha = 0.5f)
         )
 
+        Spacer(modifier = Modifier.weight(1f))
 
         AppButton(
-            onClick = { /*TODO*/ },
-            title = "Sign in",
+            onClick = {
+                // Handle click
+            },
+            title = "Sign up",
+            titleColor = c_0D0D0D,
             modifier = Modifier
-                .padding(horizontal = space_16)
-                .background(c_transparent)
-                .border(boderWidth_1, c_FFFFFF, RoundedCornerShape(borderRadius_25)),
-            titleColor = c_FFFFFF,
-            contentPadding = space_24
+                .padding(horizontal = space_16),
+            backgroundColor = c_FFFFFF.copy(alpha = 0.75f),
         )
+
+        Spacer(Modifier.height(space_16))
+
+        AppButton(
+            onClick = {
+                // Handle click
+            },
+            title = "Continue with Phone Number",
+            titleColor = c_FFFFFF.copy(alpha = 0.75f),
+            modifier = Modifier
+                .padding(horizontal = space_16),
+            prefixIcon = R.drawable.phone_number,
+        )
+
+        Spacer(Modifier.height(space_16))
+
+        AppButton(
+            onClick = {
+                // Handle click
+            },
+            title = "Continue with Google",
+            titleColor = c_FFFFFF.copy(alpha = 0.75f),
+            modifier = Modifier
+                .padding(horizontal = space_16),
+            prefixIcon = R.drawable.google,
+        )
+
+        Spacer(Modifier.height(space_16))
+
+        AppButton(
+            onClick = {
+                // Handle click
+            },
+            title = "Log in",
+            titleColor = c_FFFFFF.copy(alpha = 0.75f),
+            modifier = Modifier
+                .padding(horizontal = space_16),
+        )
+
+        Spacer(Modifier.height(space_64))
+
     }
 }
