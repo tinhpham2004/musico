@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.pht.musico.presentation.auth.AuthScreen
+import com.pht.musico.presentation.home.HomeScreen
 import com.pht.musico.ui.theme.MusicoTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +22,7 @@ class MainActivity : ComponentActivity() {
         window.setBackgroundDrawable(null) // Removes default window background
         setContent {
             MusicoTheme(darkTheme = true, dynamicColor = false) {
-                AuthScreen()
+                HomeScreen()
             }
         }
     }

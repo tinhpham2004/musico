@@ -17,6 +17,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import com.pht.musico.R
+import com.pht.musico.ui.theme.c_0D0D0D
 import com.pht.musico.ui.theme.c_FFFFFF
 import com.pht.musico.ui.theme.c_transparent
 import com.pht.musico.ui.theme.typography
@@ -33,7 +34,7 @@ fun AppButton(
     title: String,
     titleColor: Color = c_FFFFFF,
     prefixIcon: Int? = null,
-    backgroundColor: Color = c_transparent,
+    backgroundColor: Color = c_0D0D0D,
 ) {
     Button(
         modifier = modifier

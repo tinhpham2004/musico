@@ -58,7 +58,7 @@ fun AuthScreen() {
 
         AppButton(
             onClick = {
-                // Handle click
+                println("Sign up clicked")
             },
             title = "Sign up",
             titleColor = c_0D0D0D,
@@ -71,7 +71,7 @@ fun AuthScreen() {
 
         AppButton(
             onClick = {
-                // Handle click
+                println("Continue with Phone Number clicked")
             },
             title = "Continue with Phone Number",
             titleColor = c_FFFFFF.copy(alpha = 0.75f),
@@ -84,7 +84,7 @@ fun AuthScreen() {
 
         AppButton(
             onClick = {
-                // Handle click
+                println("Continue with Google clicked")
             },
             title = "Continue with Google",
             titleColor = c_FFFFFF.copy(alpha = 0.75f),
@@ -97,7 +97,7 @@ fun AuthScreen() {
 
         AppButton(
             onClick = {
-                // Handle click
+                println("Log in clicked")
             },
             title = "Log in",
             titleColor = c_FFFFFF.copy(alpha = 0.75f),
