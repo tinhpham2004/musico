@@ -21,7 +21,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         window.setBackgroundDrawable(null) // Removes default window background
         setContent {
-            MusicoTheme(darkTheme = true, dynamicColor = false) {
+            MusicoTheme(
+                darkTheme = true,
+            ) {
                 HomeScreen()
             }
         }

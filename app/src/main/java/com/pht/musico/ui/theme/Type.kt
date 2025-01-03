@@ -17,6 +17,18 @@ val InterFontFamily = FontFamily(
     Font(R.font.inter_18pt_bolditalic, FontWeight.Bold, FontStyle.Italic),
     Font(R.font.inter_18pt_extrabold, FontWeight.ExtraBold),
     Font(R.font.inter_18pt_italic, FontWeight.Normal, FontStyle.Italic),
+    Font(R.font.inter_18pt_light, FontWeight.Light),
+    Font(R.font.inter_18pt_lightitalic, FontWeight.Light, FontStyle.Italic),
+    Font(R.font.inter_18pt_medium, FontWeight.Medium),
+    Font(R.font.inter_18pt_mediumitalic, FontWeight.Medium, FontStyle.Italic),
+    Font(R.font.inter_18pt_semibold, FontWeight.SemiBold),
+    Font(R.font.inter_18pt_semibolditalic, FontWeight.SemiBold, FontStyle.Italic),
+    Font(R.font.inter_18pt_thin, FontWeight.Thin),
+    Font(R.font.inter_18pt_thinitalic, FontWeight.Thin, FontStyle.Italic),
+    Font(R.font.inter_18pt_black, FontWeight.Black),
+    Font(R.font.inter_18pt_blackitalic, FontWeight.Black, FontStyle.Italic),
+    Font(R.font.inter_18pt_extralight, FontWeight.ExtraLight),
+    Font(R.font.inter_18pt_extralightitalic, FontWeight.ExtraLight, FontStyle.Italic),
 )
 
 val typography = Typography(
