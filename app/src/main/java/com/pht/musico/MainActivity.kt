@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.pht.musico.presentation.auth.AuthScreen
 import com.pht.musico.presentation.home.HomeScreen
+import com.pht.musico.presentation.router.AppNavigation
 import com.pht.musico.ui.theme.MusicoTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,24 +25,8 @@ class MainActivity : ComponentActivity() {
             MusicoTheme(
                 darkTheme = true,
             ) {
-                HomeScreen()
+                AppNavigation()
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    MusicoTheme {
-        Greeting("Android")
     }
 }

@@ -49,7 +49,7 @@ fun HomeScreen() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = space_64, start = space_16)
+            .padding(start = space_16)
             .verticalScroll(
                 state = scrollState,
             ),
