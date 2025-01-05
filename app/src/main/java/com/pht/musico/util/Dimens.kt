@@ -4,8 +4,10 @@ import androidx.compose.ui.unit.dp
 
 object Dimens {
     val space_0 = 0.dp
+    val space_4 = 4.dp
     val space_8 = 8.dp
     val space_16 = 16.dp
+    val space_20 = 20.dp
     val space_24 = 24.dp
     val space_32 = 32.dp
     val space_40 = 40.dp
