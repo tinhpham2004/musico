@@ -42,6 +42,10 @@ import com.pht.musico.util.Dimens.space_56
 import com.pht.musico.util.Dimens.space_64
 import com.pht.musico.util.Dimens.space_8
 
+/**
+ * A composable function that displays the home screen of the app.
+ * It includes a greeting message, notifications icon, user avatar, and various sections like "Featuring Today", "Recently Played", and "Mixes for you".
+ */
 @Composable
 fun HomeScreen() {
     val scrollState = rememberScrollState()

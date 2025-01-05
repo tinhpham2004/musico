@@ -23,6 +23,10 @@ import com.pht.musico.util.Dimens.space_24
 import com.pht.musico.util.Dimens.space_32
 import com.pht.musico.util.Dimens.space_64
 
+/**
+ * A composable function that displays the authentication screen.
+ * It includes the app title, a subtitle, and several buttons for different authentication options.
+ */
 @Composable
 fun AuthScreen() {
     Column(

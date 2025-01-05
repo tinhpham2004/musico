@@ -5,7 +5,6 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
@@ -16,6 +15,10 @@ import com.pht.musico.presentation.home.HomeScreen
 import com.pht.musico.presentation.library.LibraryScreen
 import com.pht.musico.presentation.search.SearchScreen
 
+/**
+ * A composable function that sets up the navigation structure of the app.
+ * It includes a bottom navigation bar and a navigation host to manage screen navigation.
+ */
 @Composable
 fun AppNavigation() {
     val navController = rememberNavController()

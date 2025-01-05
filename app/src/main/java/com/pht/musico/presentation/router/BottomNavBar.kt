@@ -22,7 +22,13 @@ import com.pht.musico.ui.theme.c_transparent
 import com.pht.musico.util.Dimens.space_24
 import com.pht.musico.util.Dimens.space_8
 
-
+/**
+ * A composable function that displays a bottom navigation bar with the given items.
+ *
+ * @param items A list of [Route] objects representing the navigation items.
+ * @param selectedItem The index of the currently selected item.
+ * @param onItemClick A callback function to be invoked when an item is clicked, with the index of the clicked item.
+ */
 @Composable
 fun BottomNavBar(
     items: List<Route>,

@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
-import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -19,14 +18,22 @@ import androidx.compose.ui.text.font.FontWeight
 import com.pht.musico.R
 import com.pht.musico.ui.theme.c_0D0D0D
 import com.pht.musico.ui.theme.c_FFFFFF
-import com.pht.musico.ui.theme.c_transparent
 import com.pht.musico.ui.theme.typography
 import com.pht.musico.util.Dimens.boderWidth_1
-import com.pht.musico.util.Dimens.borderRadius_25
 import com.pht.musico.util.Dimens.borderRadius_30
 import com.pht.musico.util.Dimens.space_24
 import com.pht.musico.util.Dimens.space_8
 
+/**
+ * A composable function that displays a customizable button with an optional prefix icon.
+ *
+ * @param modifier The modifier to be applied to the button.
+ * @param onClick The callback to be invoked when the button is clicked.
+ * @param title The text to be displayed on the button.
+ * @param titleColor The color of the button text. Default is white.
+ * @param prefixIcon The resource ID of the icon to be displayed before the text. Default is null.
+ * @param backgroundColor The background color of the button. Default is black.
+ */
 @Composable
 fun AppButton(
     modifier: Modifier = Modifier,
